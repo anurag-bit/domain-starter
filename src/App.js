@@ -11,7 +11,7 @@ import polygonLogo from "./assets/polygonlogo.png";
 const tld = ".sys";
 const TWITTER_HANDLE = "AnuragS24171420";
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
-const CONTRACT_ADDRESS = "0x66959BEd0172Ae0dCa8c5b4e2f5E092347EF5a2A";
+const CONTRACT_ADDRESS = process.env.CONTRACT_ADDRESS;
 
 const App = () => {
     const [mints, setMints] = useState([]);
